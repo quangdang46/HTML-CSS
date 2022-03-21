@@ -1,0 +1,12 @@
+    hr:kẻ đường thẳng
+    pre:định dạng văn bản
+    br:tách dòng
+    font-size:cở chữ
+    color:màu
+    background-color:màu nền
+    font-family:kiểu chũ
+    text-align:can chinh
+    text-decoration:none
+    //khong gach chan link
+    //bo tron goc
+    border-radius

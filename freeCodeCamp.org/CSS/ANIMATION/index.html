@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <style>
+      #para-1 {
+        background-color: red;
+        width: 200px;
+        font-size: 85px;
+        /* animation:myAnimationFont 5s infinite; */
+      }
+
+      #para-1:hover {
+        animation:myAnimationFont 5s infinite;
+      }
+      /* @keyframes tênAnimation {
+        giá trị { css }
+      } */
+      /*
+
+      from {thuộc tính: giá trị;}
+      to {thuộc tính: giá trị;}	from {top: 0;}
+      to {bottom: 100px; color: red;}	Định dạng thành phần theo trí đầu và vị trí cuối.
+      Phần trăm {thuộc tính: giá trị;}	0% {top: 0;}
+      50% {top: 150px;}
+      100% {top: 50px;}	Định dạng thành phần theo phần trăm thời gian hành động diễn ra.
+      */
+
+      /* @keyframes myAnimationTransition {
+        40% {
+          transform: translateX(100px);
+        }
+        50% {
+          transform: translateX(30px);
+        }
+      } */
+
+
+      /* @keyframes myAnimationScale {
+        20% {
+          transform: scale(1.5);
+        }
+        50% {
+          transform: scale(0.5);
+        }
+      } */
+
+      /* @keyframes myAnimationRoate {
+        30% {
+          transform: rotate(360deg);
+        }
+        40% {
+          transform: rotate(720deg);
+        }
+      } */
+
+
+
+      /* Thuộc tính opacity hiển thị cấp độ trong suốt cho thành phần. */
+      /* @keyframes myAnimationOpacity {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      } */
+
+
+
+      @keyframes myAnimationFont {
+        0% {
+          font-size: 85px;
+        }
+        50% {
+          font-size: 50px;
+        }
+        100% {
+          font-size: 85px;
+        }        
+      }
+    </style>
+  </head>
+
+  <body>
+    <p id="para-1">Hello</p>
+  </body>
+</html>

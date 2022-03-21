@@ -1,0 +1,108 @@
+<html lang="en">
+  <head>
+    <style>
+      /* .box-1 {
+            background-color: aqua;
+            height: 100px;
+            width:100%;
+        }
+
+        .box-1::before {
+            content: "";
+            display: block;
+            height: 50px;
+            width: 100px;
+            background-color: red;
+        } */
+
+      /* 
+        :hover – Chọn trạng thái khi rê chuột vào một phần tử.
+        :visited – Được sử dụng cho liên kết, chọn liên kết khi đã được truy cập (dựa vào History trên trình duyệt).
+        :link – Được sử dụng cho liên kết, chọn liên kết khi chưa nhấp vào.
+        :active – Chọn phần tử khi họ chọn/nhấp vào.
+        */
+
+      /* 
+        ":nth-child(n)" chọn thành phần thứ "n" trong thành phần cha, gốc tính được tính từ thành phần đầu tiên trở đi.
+        Thứ tự "n" được tính cho tất cả các thành phần cùng cấp.
+        Chỉ chọn thành phần có thành phần cha, những thành phần độc lập sẽ không được chọn.
+        Giá trị "n" có thể là số, keyword hay công thức.
+        */
+
+      a:link {
+        color: rgb(156, 223, 47);
+        font-size: 50px;
+      }
+
+      button {
+        padding: 10px;
+      }
+
+      button:hover {
+        background-color: red;
+        color: white;
+        font-size: 30px;
+      }
+
+      a:visited {
+        color: rgb(153, 0, 255);
+      }
+
+      /* a:active {
+        color: rgb(17, 13, 5);
+      } */
+
+      button:active {
+        color: rgb(153, 0, 255);
+      }
+
+      /* li:first-child {
+        background-color: rgb(255, 255, 0);
+      }
+
+
+      li:last-child {
+        background-color: rgb(255, 0, 0);
+      } */
+
+      li:nth-child(2n+0) {
+        background-color: rgb(0, 255, 0);
+      }
+      li:nth-child(2n+1) {
+        background-color: rgb(0, 0, 255);
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="box-1"></div>
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    <br /><br />
+
+    <button type="button">Hay nhan vao day</button>
+
+    <br /><br />
+    <ul>
+      <li>This is item #1</li>
+      <li>This is item #2</li>
+      <li>This is item #3</li>
+      <li>This is item #4</li>
+      <li>This is item #5</li>
+      <li>This is item #6</li>
+      <li>This is item #7</li>
+      <li>This is item #8</li>
+      <li>This is item #9</li>
+      <li>This is item #10</li>
+    </ul>
+
+    <br /><br />
+    <ul>
+      <li>::before</li>
+      <li>::after</li>
+      <li>::first-letter</li>
+      <li>::first-line</li>
+      <li>::section</li>
+    </ul>
+  </body>
+</html>

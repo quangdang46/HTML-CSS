@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <style>
+      /* Thuộc tính overflow xác định điều gì sẽ xảy ra nếu một thành phần box tràn nội dung. */
+      /* Thuộc tính display xác định loại hiển thị của thành phần. */
+      /* Thuộc tính min-width thiết lập chiều rộng tối thiểu (nhỏ nhất) cho thành phần.Sử dụng khi giới hạn chiều rộng nhỏ nhất cho thành phần, không làm mất background khi text ít hơn hay khi zoom window. */
+
+      ul {
+        padding: 0;
+        margin: 0;
+        border: 2px solid black;
+        background-color: black;
+        width: 100%;
+        list-style-type: none;
+        overflow: hidden;
+      }
+
+      li a {
+        display: block;
+        float: left;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        border-left: 3px solid rgb(165, 72, 29);
+        /* border-right: 5px solid rgb(165, 72, 29); */
+        text-align: center;
+        min-width: 100px;
+      }
+      li a:hover {
+        background-color: white;
+        color: black;
+        animation:myAnimationTextShadow 3s;
+      }
+
+/* 
+      @keyframes myAnimationScale {
+        10%{
+          transform: scale(1.1);
+        }
+      } */
+
+      @keyframes myAnimationTextShadow {
+        20%{
+          text-shadow: 0 0 10px rgb(72, 165, 29);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Navigation Bar Demo</h1>
+    <ul>
+      <li><a href="home.com" target="_blank">Home</a></li>
+      <li><a href="Aboi.com" target="_blank">About</a></li>
+      <li><a href="Info.com" target="_blank">Info</a></li>
+      <li><a href="Contact.com" target="_blank">Contact us</a></li>
+    </ul>
+  </body>
+</html>

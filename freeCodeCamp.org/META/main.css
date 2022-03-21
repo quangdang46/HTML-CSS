@@ -1,0 +1,22 @@
+
+.all-browsers {
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(214, 57, 57);
+}
+
+.all-browsers>h1,
+.browser {
+    margin: 10px;
+    padding: 5px;
+}
+
+.browser {
+    background: white;
+}
+
+.browser>h2,
+p {
+    margin: 4px;
+    font-size: 90%;
+}

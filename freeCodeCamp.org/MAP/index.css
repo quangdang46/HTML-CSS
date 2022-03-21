@@ -1,0 +1,8 @@
+h1::first-letter {
+    color: red;
+
+}
+h1::first-line {
+    color: red;
+
+}
